@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+	int a,b,c,d,e,f,g;
+	
+	printf("enter the value of a \n");
+	scanf("%d",&a);
+	
+	printf("enter the value of b \n");
+	scanf("%d",&b);
+	
+	c=a+b;
+	printf("addition is %d\n",c);
+	
+	d=a-b;
+	printf("Subtraction is %d\n",d);
+	
+	e=a*b;
+	printf("multiplication is %d\n",e);
+	
+	f=a%b;
+	printf("modula is %d\n",f);
+	
+	g=a/b;
+	printf("division is %d\n",g);
+	
+	getch();
+}
